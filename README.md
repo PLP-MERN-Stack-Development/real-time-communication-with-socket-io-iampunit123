@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Real-Time Chat Application with Socket.io
 
 This assignment focuses on building a real-time chat application using Socket.io, implementing bidirectional communication between clients and server.

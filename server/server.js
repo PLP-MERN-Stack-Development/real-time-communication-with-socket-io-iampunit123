@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-// server.js - Main server file for Socket.io chat application
 
 const express = require('express');
 const http = require('http');
@@ -8,10 +6,8 @@ const cors = require('cors');
 const dotenv = require('dotenv');
 const path =const express = require('express');
 const http = require('http');
-=======
 const express = require('express');
 const http = require('http');
->>>>>>> master
 const socketIo = require('socket.io');
 const cors = require('cors');
 const helmet = require('helmet');
@@ -242,6 +238,5 @@ server.listen(PORT, () => {
 });
 
 module.exports = { app, server, io }; 
-=======
+
 module.exports = app;
->>>>>>> master

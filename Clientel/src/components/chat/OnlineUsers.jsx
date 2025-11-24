@@ -23,7 +23,7 @@ const OnlineUsers = () => {
           >
             <div className="relative">
               <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-green-500 rounded-full flex items-center justify-center text-white text-sm font-medium">
-                {user.username.charAt(0).toUpperCase()}
+                {user?.username ? user.username.charAt(0).toUpperCase() : '?'}
               </div>
               <Circle
                 size={12}
@@ -32,7 +32,7 @@ const OnlineUsers = () => {
             </div>
             <div className="flex-1 min-w-0">
               <p className="text-sm font-medium text-gray-900 truncate">
-                {user.username}
+                {user?.username || 'Unknown User'}
               </p>
               <p className="text-xs text-green-600">Online</p>
             </div>

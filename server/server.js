@@ -112,7 +112,7 @@ process.on('unhandledRejection', (err, promise) => {
   });
 });
 
-<<<<<<< HEAD
+
 module.exports = app; require('path');
 
 // Load environment variables
